@@ -202,7 +202,7 @@ Ticket açıldığında ilk mesaj olarak kullanıcıyı bilgilendirmek için bu 
 ```
 - `category_error` bölümü komutun Ticketlar için ayırdığınız kategori dışında kullanılması sonucu oluşacak hatayı temsil eder. <br> `category_error.embed` değeri ise bu mesajın bir embed olarak gönderilmesi olayını kontrol eder,<br> `category_error.ephemeral` ise bu gönderilecek mesajın sadece komutu kullanan kullanıcıya görünmesi olayını kontrol eder.<br>
 `log_category` Değeri biletler kapatıldığında hangi kategori altına taşınacaklarını kontrol eder.<br>
-- NOT: **Ticketlar kapatıldığında belirlenen kategorinin izinleri ile kendilerini `senkronize` ederler bu yüzden `log_category` izinlerini ne yaparsanız altındaki kanallar içinde geçerli olucaktır.**
+- NOT: **Ticketlar kapatıldığında belirlenen kategorinin izinleri ile kendilerini `senkronize` ederler bu yüzden `log_category` izinlerini ne yaparsanız altındaki kanallar içinde geçerli olucaktır.**<br>
 `action_logs` kısmı ise Ticket kapatma işlemlerini loglar yani metinsel olarak şu şunu yaptı diye, bir kanal belirlemeniz gerekir.
 ## system.commands
 Bu bölüm içerisinde fazla komut olduğu için hepsini buraya yazamıyorum ama bilmeniz gereken bilgiler<br>
@@ -218,5 +218,5 @@ Bu bölüm içerisinde fazla komut olduğu için hepsini buraya yazamıyorum ama
 ```
 Bu genel bir komut örneğini ele alalım
 - `required_role` Komutu kullanmak için gereken rol
-- `permission_error` ise izni yoksa karşısına çıkacak mesaj, `embed` ve `ephemeral` kısımlarını atlıyorum yukarıda bahsettim.
+- `permission_error` ise izni yoksa karşısına çıkacak mesaj, `embed` ve `ephemeral` kısımlarını atlıyorum yukarıda bahsettim.<br>
 **Ayrıca lafı geçmişken `system.ticket_claim_command` da komutlara dahildir yani burada ne görüyorsan orasıda hemen hemen aynı**
