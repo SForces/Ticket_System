@@ -192,7 +192,7 @@ Ticket açıldığında ilk mesaj olarak kullanıcıyı bilgilendirmek için bu 
 ```json
 "ticket_closing_settings": {
     "category_error": {
-        "msg":"Bu komut sadece Konrul Tickets kategorisi altında kullanılabilir.",
+        "msg":"Bu komut sadece Tickets kategorisi altında kullanılabilir.",
         "embed":true,
         "ephemeral":true
     },
@@ -200,7 +200,7 @@ Ticket açıldığında ilk mesaj olarak kullanıcıyı bilgilendirmek için bu 
     "action_logs": "CHANNEL_ID"
 }
 ```
-- `category_error` bölümü komutun Ticketlar için ayırdığınız kategori dışında kullanılması sonucu oluşacak hatayı temsil eder. <br> `category_error.embed` değeri ise bu mesajın bir embed olarak gönderilmesi olayını kontrol eder,<br> `category_error.ephemeral` ise bu gönderilecek mesajın sadece komutu kullanan kullanıcıya görünmesi olayını kontrol eder.
+- `category_error` bölümü komutun Ticketlar için ayırdığınız kategori dışında kullanılması sonucu oluşacak hatayı temsil eder. <br> `category_error.embed` değeri ise bu mesajın bir embed olarak gönderilmesi olayını kontrol eder,<br> `category_error.ephemeral` ise bu gönderilecek mesajın sadece komutu kullanan kullanıcıya görünmesi olayını kontrol eder.<br>
 `log_category` Değeri biletler kapatıldığında hangi kategori altına taşınacaklarını kontrol eder.<br>
 - NOT: **Ticketlar kapatıldığında belirlenen kategorinin izinleri ile kendilerini `senkronize` ederler bu yüzden `log_category` izinlerini ne yaparsanız altındaki kanallar içinde geçerli olucaktır.**
 `action_logs` kısmı ise Ticket kapatma işlemlerini loglar yani metinsel olarak şu şunu yaptı diye, bir kanal belirlemeniz gerekir.
