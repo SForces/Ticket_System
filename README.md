@@ -1,4 +1,4 @@
-![Ticket System](https://media.discordapp.net/attachments/1269039649284690023/1269039862246412499/Tickets_md-removebg-preview.png?ex=66ae9cf8&is=66ad4b78&hm=84d07e84e06d0e8243a4cecd613273b41a158c6433c754117c712fe6311a2c32&=&format=webp&quality=lossless&width=703&height=227)
+![Ticket System](https://media.discordapp.net/attachments/1269039649284690023/1269039862246412499/Tickets_md-removebg-preview.png?ex=66c45db8&is=66c30c38&hm=bcb92fa14e0f316bd3922d050159929d3061d9d7dded9f2f1a86db627dbd3aba&=&format=webp&quality=lossless&width=440&height=142)
 # Giriş
 - Bu dosya fforcess tarafından kodlanmış Ticket Sistemi için bir tanıtım dosyasıdır.
 - Bu dosya ile botun tüm özelliklerini ve komutlarını öğrenebilirsiniz.
